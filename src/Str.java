@@ -12,31 +12,31 @@ public class Str {
 		
 		
 		char result = str.charAt(5);
-		System.out.println("charAt"+result);
+		System.out.println("charAt "+result);
 		
 		int a = str.length();
-		System.out.println("length"+a);
+		System.out.println("length "+a);
 	
 		String b = str.substring(8);
-		System.out.println("substring"+b);
+		System.out.println("substring "+b);
 		
 		b = str.trim();
-		System.out.println("trim"+b);
+		System.out.println("trim "+b);
 		
 		a = str.compareTo(str1);
-		System.out.println("compare to"+a);
+		System.out.println("compare to "+a);
 		
 		a = str1.compareTo(str2);
-		System.out.println("compare to"+a);
+		System.out.println("compare to "+a);
 		
 		a = str.compareToIgnoreCase(str1);
-		System.out.println("compare to ignore case"+a);
+		System.out.println("compare to ignore case "+a);
 		
 		a = str.compareToIgnoreCase(str2);
-		System.out.println("compare to ignore case"+a);
+		System.out.println("compare to ignore case "+a);
 		
 		a = str1.compareToIgnoreCase(str2);
-		System.out.println("compare to ignore case"+a);
+		System.out.println("compare to ignore case "+a);
 		
 		System.out.print("Found Index :" );
 	    System.out.println(str.indexOf( 'o' ));
